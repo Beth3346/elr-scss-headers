@@ -1,9 +1,10 @@
 @import "elr-scss-functions/src/main";
+@import "elr-scss-config/src/main";
 
 @mixin elr-headers($config: ()) {
   $config: extend(
     (
-      color: #333,
+      color: $text-color,
     ),
     $config
   );
